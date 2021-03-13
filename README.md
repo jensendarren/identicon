@@ -1,6 +1,22 @@
 # Identicon
 
-**TODO: Add description**
+## Running the Application
+
+To run, at the terminal do the following:
+
+```
+iex -S mix
+iex> Identicon.main("banana")
+# creates 'banana.png' identicon!
+```
+
+## Expected output
+
+In the terminal you will see the atom `:ok` and in your file system you will see a new `.png` file with the same name as the text you provide to the `Identicon.main` function.
+
+For example, running `Identicon.main("banana")` will generate the `banana.png` identicon as shown below:
+
+<img src="./img/banana.png" alt="drawing" width="150"/>
 
 ## Installation
 
